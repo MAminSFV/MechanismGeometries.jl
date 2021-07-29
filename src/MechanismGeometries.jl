@@ -16,6 +16,7 @@ export AbstractGeometrySource,
        VisualElement,
        visual_elements,
        Skeleton,
+       mySkel,
        HyperPlane,
        URDFVisuals,
        MeshFile
@@ -47,6 +48,7 @@ end
 
 include("skeleton.jl")
 include("urdf.jl")
+include("mySkel.jl")
 using .URDF
 
 end # module
