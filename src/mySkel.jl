@@ -140,8 +140,8 @@ function visual_elements(mechanism::Mechanism, source::mySkel)
         [map(frame_before, out_joints(body, mechanism)); map(frame_after, in_joints(body, mechanism))]
     end for body in bodies(mechanism))
 
-    #box_width = 0.1 * maximum_link_length(body_fixed_joint_frames)
-    box_width = 0.5
+    box_width = 0.1 * maximum_link_length(body_fixed_joint_frames)
+    #box_width = 0.5
 
     # NOTE - Initializing Elements Vector, Elements will be pushed to it
     elements = Vector{VisualElement}()
