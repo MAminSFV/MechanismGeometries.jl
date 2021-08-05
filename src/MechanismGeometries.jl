@@ -48,6 +48,7 @@ end
 
 include("skeleton.jl")
 include("urdf.jl")
+include("mySkel.jl")
 using .URDF
 
 end # module
