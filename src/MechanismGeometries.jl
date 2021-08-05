@@ -16,6 +16,7 @@ export AbstractGeometrySource,
        VisualElement,
        visual_elements,
        Skeleton,
+       mySkel,
        HyperPlane,
        URDFVisuals,
        MeshFile
